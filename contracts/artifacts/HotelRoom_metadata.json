@@ -76,7 +76,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"HotelRoom.sol": "HotelRoom"
+			"contracts/HotelRoom.sol": "HotelRoom"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -90,7 +90,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"HotelRoom.sol": {
+		"contracts/HotelRoom.sol": {
 			"keccak256": "0x6f58cece6ca862ab38e2e7dcc7c355ccd8f644a4c5b070737765ed7ae50570be",
 			"license": "MIT",
 			"urls": [

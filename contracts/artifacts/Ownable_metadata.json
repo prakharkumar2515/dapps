@@ -6,28 +6,9 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_secret",
-						"type": "string"
-					}
-				],
+				"inputs": [],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "getSecret",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
 			},
 			{
 				"inputs": [],
@@ -56,7 +37,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/new.sol": "NewContract"
+			"contracts/new.sol": "Ownable"
 		},
 		"evmVersion": "prague",
 		"libraries": {},

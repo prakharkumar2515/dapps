@@ -4,7 +4,19 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_secret",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -18,7 +30,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"HotelRoom.sol": "MyContract"
+			"contracts/new.sol": "MyContract"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -32,12 +44,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"HotelRoom.sol": {
-			"keccak256": "0xfb2351a0240fb1244d502859a63374a32a5e06e3933034af7520f36754e167b0",
+		"contracts/new.sol": {
+			"keccak256": "0x0b2db97240a04ebc40104b5b0bfdb1bf9210c2976f6eb032e08714148f525f3a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ae731fb8555543d5d13de7f1d74614f0a61f9d45258ae207ad52336989e1c4ef",
-				"dweb:/ipfs/QmPYAFojADLedGZtj8ZD6hEJ52pzNSnV6csZMDte1eyrLE"
+				"bzz-raw://bb88cdccadc96279c685797277838609d51ae39fcd30659b6217b34dc838d68b",
+				"dweb:/ipfs/QmaN473CyScQ9XubJZeX68hAXgqUFT8DM6chexyzWDArg6"
 			]
 		}
 	},
